@@ -3,20 +3,6 @@
  obtain its data as well as a picture of the state flower. Get the 5 most populous
  states and graph the data, as well as manipulate and change a states population"""
 
-# In the reading this week, I read about Lists, Dictionaries, and Sets. For lists,
-# I think you would mainly use them when you have a few things to cycle through or when
-# storing user input. Dictionaries are used to condense lists in my opinion and store a lot
-# of data with keywords(key) that when called upon then print the values within that key,
-# which would otherwise have most possibly been other lists. I also learned about sets which
-# have a variable name that holds stored data, and then you can manipulate, add to or remove
-# from the set with different built-in functions. I chose to use a Dictionary for this program,
-# mainly because of the sheer amount of data. Originally I was using 3 lists and to match each
-# and every index between the 3 lists whilst trying to sort, was daunting. But because of the dictionary
-# I was able to condense the 3 or so lists into one with have the state being the main key with
-# keys for capital/population/and flower within the state key. So all the values were stored within each state
-# that I could call upon or get with less intrusive coding involved. I feel the other data structures would
-# have worked, but would have also required more work.
-
 # Imports to import functions of matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
